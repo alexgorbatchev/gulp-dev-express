@@ -1,0 +1,25 @@
+{
+  "name": "gulp-dev-express",
+  "version": "1.0.0",
+  "description": "Gulp.js plugin that restart Express.js server using fibonacci backoff.",
+  "author": {
+    "name": "Alex Gorbatchev",
+    "email": "alex.gorbatchev@gmail.com"
+  },
+  "scripts": {
+    "build": "babel index.babel.js > index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexgorbatchev/gulp-dev-express.git"
+  },
+  "license": "MIT",
+  "keywords": ["gulpplugin", "express", "development", "restart"],
+  "dependencies": {
+    "backoff": "^2.4.1",
+    "gulp-util": "^3.0.6"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
